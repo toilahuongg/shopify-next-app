@@ -1,0 +1,12 @@
+POST http://localhost:3000/api/todo/create HTTP/1.1
+content-type: application/json
+
+{
+    "content": "sample",
+    "check": false
+}
+###
+GET http://localhost:3000/api/todo HTTP/1.1
+
+###
+DELETE  http://localhost:3000/api/todo/60e6649b59458b3380a347b2 HTTP/1.1
